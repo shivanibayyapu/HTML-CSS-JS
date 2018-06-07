@@ -1,0 +1,57 @@
+<html>
+    <head>
+            <script type="text/javascript" src="myjavascript.js"></script>
+    
+        <title>
+            product application
+        </title>
+        
+        <link rel="stylesheet" href="styling.css">
+        <style>
+                h1 {
+                    color : blue;
+                    font-family: verdana;
+                }
+                body{
+                    background-color : gainsboro;
+                    
+                }
+                </style>
+    
+        
+    </head>
+    <body>
+        <center><h1>
+            Product
+        </h1></center>
+        
+        <form  onsubmit="add()" action="assignmentdetails.html" method="post">
+            <fieldset >
+                    <legend>Product Details:</legend>
+                product name:<br>
+                <input type="text" id="productname" value=" "/><br>
+                description:<br>
+                <textarea name="message" id="description" rows="10" cols="30">
+                        
+                        </textarea>
+                <br>
+                model :<br>
+                <input type="text" id="model" value=" "/><br>
+                <br>
+                <select name="year" id="year">
+                    <option value="1996">january 1996</option>
+                    <option value="1997">feb 1997</option>
+                    <option value="1998">april 1998</option>
+                    <option value="1999">may 1999</option>
+                  </select><br>
+                  <button type="button" onclick="add();" >submit</button><br>
+        </fieldset>
+        </form>
+        
+    
+    
+
+
+        
+    </body>
+</html>
